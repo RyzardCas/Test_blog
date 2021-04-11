@@ -1,0 +1,103 @@
+body {
+  padding-right: 0;
+}
+
+p {
+  color: #0D0D0D;
+}
+
+
+.header {
+    background:url(assets/images/background.png) no-repeat center;
+    padding-right: 0;
+    padding-left:0 ;
+    background-size: cover;
+    min-height: 41vh;
+    background-color: #3C5659;
+    display: block;
+}
+
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.h1 {
+  font-family: 'Merriweather', serif;
+  padding-top: 56px;
+  padding-bottom: 30px;
+  color: #365359;
+}
+.container{
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.img-fluid {
+  display: block;
+}
+
+
+.col {
+  padding: 40px;
+  text-align: center;
+}
+
+
+
+.card {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    position: absolute;
+    width: 213px;
+    height: 318.92;
+    top: 150px;
+
+}
+.father {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: cover;
+}
+
+.child {
+  text-align: center;
+}
+
+.img_cables {
+  float: right;
+}
+
+.sally_section  {
+  max-width: 100%;
+  background-color: #E6E6E6;
+}
+
+  .girl_section img {
+    max-width: 100%;
+  }
+
+  .cables_img p ul{
+    text-align: center;
+    padding: 23px;
+    font-size: 36px;
+    font-family: FIra Sans, serif;
+  }
+
+  @media screen and (max-width:800px) and (min-width:500px) {
+    .cables {
+      display: contents;
+    }
+
+  }
